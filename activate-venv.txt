@@ -1,0 +1,12 @@
+# 
+cd ~/Desktop/Phishing-Detection-Tool
+python3 -m venv venv
+
+
+# 
+source venv/bin/activate
+
+#
+(venv) aditya@aditya-HP-Laptop-15s-eq1xxx:~/Desktop/Phishing-Detection-Tool$
+pip install requests beautifulsoup4 python-whois dnspython
+python phishing_detector.py --url https://example.com
